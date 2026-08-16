@@ -2,7 +2,7 @@
 
 2 years after never touching Elixir again now I'm finaly gonna do research on this functional programming language.  
 
-## Requirements
+### Requirements
 
 - Elixir
 - Erlang/OTP
@@ -12,12 +12,15 @@ Clone the repository:
 
 ```bash
 mix new <project-name> ### create new project
-mix run
+mix run ### compile and run
 
 elixir <project-name.exs> ### compile and run
+
+mix deps.get ### for install dependency
+
 ```
 
-# Main Function
+### Main Function
 
 ```bash
 
