@@ -15,3 +15,22 @@ mix new <project-name> ### create new project
 mix run
 
 elixir <project-name.exs> ### compile and run
+```
+
+# Main Function
+
+```bash
+
+add | mod: {Example, []}, in 
+
+  # Run "mix help compile.app" to learn about applications.
+  def application do
+    [
+      mod: {Example, []},
+      extra_applications: [:logger]
+    ]
+  end
+
+#for compile and execute without need to compile new code to show result
+
+```
