@@ -7,3 +7,11 @@
 - Elixir
 - Erlang/OTP
 - Git
+
+Clone the repository:
+
+```bash
+mix new <project-name> ### create new project
+mix run
+
+elixir <project-name.exs> ### compile and run
